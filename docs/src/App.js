@@ -17,6 +17,7 @@ function App() {
     <>
       <GlobalStyle />
       <div>How to build GACHA machine</div>
+      <h1>Parts List</h1>
     </>
   );
 }
