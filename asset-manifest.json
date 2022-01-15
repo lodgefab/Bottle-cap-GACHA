@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/bottle-cap-gacha/static/js/main.e3e2aa42.js",
+    "static/js/787.edd59a96.chunk.js": "/bottle-cap-gacha/static/js/787.edd59a96.chunk.js",
+    "index.html": "/bottle-cap-gacha/index.html",
+    "main.e3e2aa42.js.map": "/bottle-cap-gacha/static/js/main.e3e2aa42.js.map",
+    "787.edd59a96.chunk.js.map": "/bottle-cap-gacha/static/js/787.edd59a96.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.e3e2aa42.js"
+  ]
+}
