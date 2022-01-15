@@ -1,4 +1,4 @@
-# Bottle-cap-GACHA
+# bottle-cap-GACHA v1.0.0
 Everything you need to build GACHA machine work with used bottle caps instead of coins
 
 ### Build Instructions
