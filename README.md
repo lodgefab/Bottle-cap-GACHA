@@ -4,7 +4,7 @@ Everything you need to build GACHA machine work with used bottle caps instead of
 <img width="405" alt="スクリーンショット 2022-01-19 6 57 09" src="https://user-images.githubusercontent.com/63788611/150025202-786923c6-4fa7-4164-86d8-1e7949584483.png">
 
 ### Why we made this?
-Collecting plastic waste is boring. Since we run a community to make keyboards out of wasted bottle caps[(check out #ANYCAP](https://anycap.xyz/), we know how hard and boring it is to collect waste plastic. In order to make recycling playful, we made a capsule toy machine ('Gachapon' in Japanese) that people can challenge with bottle caps instead of coins. The machine is made from MDF & Acrylic board. So you can make it easily at your local fab space.
+Collecting plastic waste is boring. Since we run a community to make keyboards out of wasted bottle caps[(check out #ANYCAP](https://anycap.xyz/)), we know how hard and boring it is to collect waste plastic. In order to make recycling playful, we made a capsule toy machine ('Gachapon' in Japanese) that people can challenge with bottle caps instead of coins. The machine is made from MDF & Acrylic board. So you can make it easily at your local fab space.
 
 ![demo c3eb7feb65f66dd2a26a](https://user-images.githubusercontent.com/63788611/150025523-eafdf967-787a-4bf1-9df6-a1d305360005.gif)
 
