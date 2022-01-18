@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.e6c13ad2.css",
-    "main.js": "/static/js/main.f1ab60ad.js",
-    "static/js/787.90b35be5.chunk.js": "/static/js/787.90b35be5.chunk.js",
-    "static/media/demo.gif": "/static/media/demo.c3eb7feb65f66dd2a26a.gif",
-    "static/media/machine.svg": "/static/media/machine.f313ca66f911d943182136a4642b028f.svg",
-    "static/media/github.svg": "/static/media/github.0870e1885fc3382f1750daca299dd68e.svg",
-    "index.html": "/index.html",
-    "static/media/sheet.svg": "/static/media/sheet.eaa67926973344160fed9ff6f109ed66.svg",
-    "static/media/external.svg": "/static/media/external.d049737c80864377413508c392c98d1e.svg",
-    "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
-    "main.f1ab60ad.js.map": "/static/js/main.f1ab60ad.js.map",
-    "787.90b35be5.chunk.js.map": "/static/js/787.90b35be5.chunk.js.map"
+    "main.css": "/bottle-cap-gacha/static/css/main.e6c13ad2.css",
+    "main.js": "/bottle-cap-gacha/static/js/main.7fa5ce0e.js",
+    "static/js/787.90b35be5.chunk.js": "/bottle-cap-gacha/static/js/787.90b35be5.chunk.js",
+    "static/media/demo.gif": "/bottle-cap-gacha/static/media/demo.c3eb7feb65f66dd2a26a.gif",
+    "static/media/machine.svg": "/bottle-cap-gacha/static/media/machine.f313ca66f911d943182136a4642b028f.svg",
+    "static/media/github.svg": "/bottle-cap-gacha/static/media/github.0870e1885fc3382f1750daca299dd68e.svg",
+    "index.html": "/bottle-cap-gacha/index.html",
+    "static/media/sheet.svg": "/bottle-cap-gacha/static/media/sheet.eaa67926973344160fed9ff6f109ed66.svg",
+    "static/media/external.svg": "/bottle-cap-gacha/static/media/external.d049737c80864377413508c392c98d1e.svg",
+    "main.e6c13ad2.css.map": "/bottle-cap-gacha/static/css/main.e6c13ad2.css.map",
+    "main.7fa5ce0e.js.map": "/bottle-cap-gacha/static/js/main.7fa5ce0e.js.map",
+    "787.90b35be5.chunk.js.map": "/bottle-cap-gacha/static/js/787.90b35be5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.f1ab60ad.js"
+    "static/js/main.7fa5ce0e.js"
   ]
 }
