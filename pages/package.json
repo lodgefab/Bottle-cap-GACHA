@@ -1,12 +1,15 @@
 {
-  "name": "my-app",
-  "homepage": "https://lodgefab.github.io/bottle-cap-gacha",
+  "name": "pages",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://lodgefab.github.io/bottle-cap-gacha/",
   "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@fortawesome/react-fontawesome": "^0.1.16",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
+    "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
@@ -19,6 +22,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
@@ -26,9 +30,6 @@
       "react-app",
       "react-app/jest"
     ]
-  },
-  "overrides": {
-    "mini-css-extract-plugin": "2.4.5"
   },
   "browserslist": {
     "production": [
@@ -43,7 +44,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3",
     "mini-css-extract-plugin": "2.4.5"
   }
 }
