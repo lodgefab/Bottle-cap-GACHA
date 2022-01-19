@@ -1,7 +1,7 @@
 # Bottle Cap Capsule Toy Machine Build Kit v1.0.0
 Everything you need to build GACHA machine work with used bottle caps instead of coins
 
-<img width="405" alt="スクリーンショット 2022-01-19 6 57 09" src="https://user-images.githubusercontent.com/63788611/150025202-786923c6-4fa7-4164-86d8-1e7949584483.png">
+![mechanics](https://user-images.githubusercontent.com/63788611/150025202-786923c6-4fa7-4164-86d8-1e7949584483.png)
 ![parts](https://user-images.githubusercontent.com/63788611/150218749-03ed2ae6-004a-479d-aa21-2423bb9ea273.png)
 
 ### Why we made this?
