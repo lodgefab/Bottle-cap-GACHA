@@ -8,6 +8,8 @@ Collecting plastic waste is boring. Since we run a community to make keyboards o
 
 ![demo c3eb7feb65f66dd2a26a](https://user-images.githubusercontent.com/63788611/150025523-eafdf967-787a-4bf1-9df6-a1d305360005.gif)
 
+![parts](https://user-images.githubusercontent.com/63788611/150218749-03ed2ae6-004a-479d-aa21-2423bb9ea273.png)
+
 
 
 ### OK. How can we build this?
