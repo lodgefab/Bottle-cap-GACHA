@@ -21,7 +21,7 @@ The Build Kit consists of 5.5mm MDF, 3mm acrylic sheet, and mechanical parts. Cu
 
 [Mechanical Parts List](https://docs.google.com/spreadsheets/d/1cDXzpXNec14m1KFo_bHg3_JA13f9ayJmwX-NvcRkl2E/edit?usp=sharing)
 
-
+[Fusion360 Data](https://a360.co/38cgIZT)
 
 ### Tutrial
 We made a video tutrial. If you are interested, please check it out!
