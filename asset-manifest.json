@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/bottle-cap-gacha/static/css/main.e6c13ad2.css",
-    "main.js": "/bottle-cap-gacha/static/js/main.b07bd660.js",
+    "main.js": "/bottle-cap-gacha/static/js/main.6c263fab.js",
     "static/js/787.90b35be5.chunk.js": "/bottle-cap-gacha/static/js/787.90b35be5.chunk.js",
     "static/media/demo.gif": "/bottle-cap-gacha/static/media/demo.c3eb7feb65f66dd2a26a.gif",
+    "static/media/kids.jpeg": "/bottle-cap-gacha/static/media/kids.00aa127d730b59ffc85b.jpeg",
     "static/media/parts.svg": "/bottle-cap-gacha/static/media/parts.0f254914e1b89472ee7f86f727237d88.svg",
     "static/media/machine.svg": "/bottle-cap-gacha/static/media/machine.f313ca66f911d943182136a4642b028f.svg",
     "static/media/github.svg": "/bottle-cap-gacha/static/media/github.49e9af48ba321ef3e0eb785dc423e59d.svg",
@@ -11,11 +12,11 @@
     "static/media/sheet.svg": "/bottle-cap-gacha/static/media/sheet.d8215bb5d8fba2e22a8d70cda81db303.svg",
     "static/media/external.svg": "/bottle-cap-gacha/static/media/external.70de503f1a8419795b3191fa0e908b55.svg",
     "main.e6c13ad2.css.map": "/bottle-cap-gacha/static/css/main.e6c13ad2.css.map",
-    "main.b07bd660.js.map": "/bottle-cap-gacha/static/js/main.b07bd660.js.map",
+    "main.6c263fab.js.map": "/bottle-cap-gacha/static/js/main.6c263fab.js.map",
     "787.90b35be5.chunk.js.map": "/bottle-cap-gacha/static/js/787.90b35be5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.b07bd660.js"
+    "static/js/main.6c263fab.js"
   ]
 }
