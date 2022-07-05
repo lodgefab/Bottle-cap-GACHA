@@ -4,6 +4,7 @@ import github from './images/github.svg'
 import external from './images/external.svg'
 import sheet from './images/sheet.svg'
 import parts from './images/parts.svg'
+import kids from './images/kids.jpeg'
 import styled, { createGlobalStyle } from 'styled-components';
 import reset from 'styled-reset';
 import { GithubCorner } from './components/GithubCorner';
@@ -35,39 +36,42 @@ function App() {
       <Left>
         <GithubCorner/>
         <Margin128/>
-        <Hero>Bottle Cap Capsule Toy Machine <br/>Build Kit<br/><span>v1.0.0</span></Hero>
-        <Margin64/>
-        <Media src={parts}/>
+        <Hero>ボトルキャップ駆動型ガチャガチャ<br/>組み立てキット<br/><span>v1.0.0</span></Hero>
         
         <Margin64/>
-        <Heading>Why we made this?</Heading>
-        <Description>Collecting plastic waste is boring. Since we run a community to make keyboards out of wasted bottle caps (<span><InlineLink href='https://anycap.xyz/' target={'_blank'}>check out #ANYCAP</InlineLink></span>), we know how hard and boring it is to collect waste plastic. In order to make recycling playful, we made a capsule toy machine ('Gachapon' in Japanese) that people can challenge with bottle caps instead of coins. The machine is made from MDF & Acrylic board. So you can make it easily at your local fab space.</Description>
+        <Heading>これは何?</Heading>
+        <Description>コインの代わりにボトルキャップを入れることで一回まわせる、オープンソースなガチャガチャです。<br/><br/>中に入れる景品はあなた次第。<br/>めんどくさくなりがちなボトルキャップの回収をちょっぴり楽しくしてみませんか？<br/><br/>MDFとアクリル板があれば、正面パネルに入れるポスターや取手、外観など自由にカスタム可能です。あなたの街でも使ってみてください。</Description>
         <Margin16/>
         <Media src={demo}/>
+        
         <Margin64/>
-        <Heading>OK. How can we build this?</Heading>
-        <Description>The Build Kit consists of 5.5mm MDF, 3mm acrylic sheet, and mechanical parts. Cut data for MDF and acrylic sheets are available on Github. </Description>
+        <Heading>つくりかた</Heading>
+        <Description>ガチャガチャは、MDF板（5.5mm）とアクリル板、そして市販部品を揃えれば、お近くのFabスペースのレーザーで部品をカットして2時間ほどで作ることができます。カットデータはGithub上にアップされているのでご自由にダウンロードしてお使いください</Description>
         <Margin16/>
         <IconLink href='https://github.com/lodgefab/bottle-cap-gacha/blob/main/GACHA_MDF5.5mm.ai' target='_blank' iconPath={github}>
           <FontAwesomeIcon icon="fa-regular fa-file-spreadsheet" />
-          MDF 5.5mm Cut Data
+          MDF 5.5mm カットデータ
         </IconLink>
         <Margin16/>
-        <IconLink href='https://github.com/lodgefab/bottle-cap-gacha/blob/main/GACHA_Acrylic3mm.ai' target='_blank' iconPath={github}>Acrylic 3.0mm Cut Data</IconLink>
+        <IconLink href='https://github.com/lodgefab/bottle-cap-gacha/blob/main/GACHA_Acrylic3mm.ai' target='_blank' iconPath={github}>Acrylic 3.0mm カットデータ</IconLink>
         <Margin16/>
-        <IconLink href='https://docs.google.com/spreadsheets/d/1cDXzpXNec14m1KFo_bHg3_JA13f9ayJmwX-NvcRkl2E/edit?usp=sharing' target='_blank' iconPath={sheet}>Mechanical Parts List</IconLink>
-        
+        <IconLink href='https://docs.google.com/spreadsheets/d/1cDXzpXNec14m1KFo_bHg3_JA13f9ayJmwX-NvcRkl2E/edit?usp=sharing' target='_blank' iconPath={sheet}>市販部品リスト</IconLink>
+        <Margin16/>
+        <Media src={parts}/>
         <Margin64/>
         <Heading>Tutrial</Heading>
-        <Description>We made a video tutrial. If you are interested, please check it out!</Description>
+        <Description>組み立て動画を作成しました。一つ一つの工程を省略せずに載せてるので、まず初めにこちらを見てもらうことをお勧めします。</Description>
         <Margin16/>
-        <Media></Media>
+        <Youtube>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/-rb8LY5E3wk" loop="1" playlist="-rb8LY5E3wk" frameborder="0" rel="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </Youtube>
         <Margin64/>
         <Heading>Author</Heading>
-        <Description>Shintaro Nakajima</Description>
-        <Description>Taisho Ichikawa</Description>
+        <Description>Shintaro Nakajima (LODGE)</Description>
+        <Description>Taisho Ichikawa (LODGE)</Description>
+        <Description>Yoichiro Watanabe (Fablab Hiroshima・Akitakata)</Description>
         <Margin64/>
-        <Footnote>This project is powered by <InlineLink href='https://lodge.yahoo.co.jp/'>LODGE Fab</InlineLink> and <InlineLink href='http://www.fablabhiroshima.com/'>Fablab Hiroshima.</InlineLink> <br/>If you have any questions, please contact us.</Footnote>
+        <Footnote>このプロジェクトは <InlineLink href='https://lodge.yahoo.co.jp/'>LODGE</InlineLink> と <InlineLink href='http://www.fablabhiroshima.com/'>Fablab 広島安芸高田</InlineLink>の共同で製作されました。<br/>疑問・質問があれば、<InlineLink href="mailto:lodgefab@gmail.com">こちら</InlineLink>までお気軽にご連絡ください.</Footnote>
         <Margin128/>
       </Left>
         
@@ -133,6 +137,7 @@ const Footnote = styled.p`
 const Media = styled.img`
   width:100%;
   height:320px;
+  object-fit:cover;
 `
 const Margin128 = styled.div`
   height:128px;
@@ -178,5 +183,13 @@ const InlineLink = styled.a`
   color:${color.utils.link};
   &:hover{
     text-decoration: underline;
+  }
+`
+const Youtube = styled.div`
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  iframe{
+    width: 100%;
+    height: 100%;
   }
 `
